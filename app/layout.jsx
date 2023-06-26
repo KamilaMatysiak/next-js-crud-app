@@ -4,7 +4,7 @@ import '@styles/globals.css'
 
 export const metadata = {
     title: 'Promptsy',
-    description: 'Discover & share prompts'
+    description: 'Discover & share prompts',
 }
 
 const RootLayout = ({ children }) => {

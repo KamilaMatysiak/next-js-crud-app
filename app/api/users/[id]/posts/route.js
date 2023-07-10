@@ -9,6 +9,6 @@ export const GET = async (req, { params }) => {
 
         return new Response(JSON.stringify(prompts), {status: 200})
     } catch (error) {
-        return new Response("Fail to fetch all prompts", {status: 400})        
+        return new Response("Fail to fetch all prompts", {status: 500})        
     }
 }
